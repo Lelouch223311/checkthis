@@ -42,3 +42,23 @@ li{
     }
 
 }
+@media screen and (max-width: 600px) {
+    .output{
+        width: 25%;
+        height: max-content;
+        box-shadow: 0px 0px 33px yellow;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        margin: auto;
+        border: 0;
+        border-radius: 10px;
+        &li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-wrap: wrap;
+        }
+    }
+    
+}
