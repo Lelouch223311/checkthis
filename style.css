@@ -35,6 +35,9 @@ li{
     margin: auto;
     border: 0;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     &li{
         display: flex;
         justify-content: center;
